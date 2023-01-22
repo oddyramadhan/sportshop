@@ -1,0 +1,52 @@
+.header {
+  /* position: fixed; */
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 10px 0px;
+  align-items: center;
+}
+
+.container-header {
+  width: 100%;
+  max-width: 1024px;
+  padding: 10px 0px;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  margin: auto;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  padding-right: 10px;
+  border-right: 3px solid;
+  cursor: default;
+}
+
+.title {
+  padding-left: 10px;
+}
+
+.navbar {
+  padding: 10px;
+  color: black;
+  opacity: 0.5;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.active {
+  opacity: 1;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 620px) {
+  .title {
+    padding: 0px 5px;
+  }
+  .navbar {
+    padding: 8px;
+  }
+}
